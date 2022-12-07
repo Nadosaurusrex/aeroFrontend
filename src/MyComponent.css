@@ -1,0 +1,45 @@
+.card-item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .card-item.img {
+    flex-shrink: 0;
+    margin-right: 10px;
+  }
+
+  .card-item .h1 {
+    color: #333;
+
+  }
+
+  .card-item:hover {
+    background-color: #eee;
+  }
+
+  .container {
+    display: flex;
+    align-items: stretch;
+  }
+  
+  .scroll-bar {
+    width: 200px;
+    height: 300px;
+    overflow-y: scroll;
+  }
+  
+  .scroll-bar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .scroll-bar li {
+    padding: 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #ccc;
+    }
+    
+
+  
